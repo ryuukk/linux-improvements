@@ -2,7 +2,7 @@ Chromium passes wrong gamma correction values, and google are too retarded to fi
 
 Patch chromium with: 
 
-```
+```diff
 --- a/skia/BUILD.gn
 +++ b/skia/BUILD.gn
 @@ -150,12 +150,19 @@
