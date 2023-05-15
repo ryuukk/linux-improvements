@@ -1,4 +1,4 @@
-Chromium passes wrong gamma correction values, and google are too retarded to fix it
+Chromium passes wrong gamma correction values to skia, and google devs are too retarded to fix it
 
 Patch chromium with: 
 
