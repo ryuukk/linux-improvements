@@ -1,6 +1,6 @@
 # Loudness filter (normalize audio)
 
-- ``easyeffects``
+- package: ``easyeffects``
 
 ```json
 {
