@@ -4,6 +4,8 @@ Here you can see the comparison between:
 - linux   - chromium - +patched+
 - windows - chrome   - stock
 
+Version: 113.0.5672.93 
+
 Patch: [chromium.md](../chromium.md#better-text-rendering)
 
 - YouTube test: https://www.youtube.com/watch?v=iesAEtjA9wo
