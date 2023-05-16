@@ -1,3 +1,5 @@
+# Better text rendering
+
 Chromium passes wrong gamma correction values to skia, and google devs are too retarded to fix it
 
 Patch chromium with: 
@@ -27,4 +29,21 @@ Patch chromium with:
      defines += [
        "SK_GAMMA_APPLY_TO_A8",
        "SK_GAMMA_EXPONENT=1.4",
+```
+
+# GPU acceleration
+
+``.config/chromium-flags.conf``
+
+```
+--enable-accelerated-video-decode
+--enable-accelerated-mjpeg-decode
+--enable-features=VaapiVideoDecoder,CanvasOopRasterization
+--enable-gpu-compositing
+--enable-gpu-rasterization
+--use-vulkan
+--ignore-gpu-blocklist
+--force-dark-mode
+--enable-features=WebUIDarkMode
+
 ```
