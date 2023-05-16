@@ -1,4 +1,8 @@
-Here you can see the comparison between stock chrome with the patched one (see chromium.md)
+Here you can see the comparison between:
+
+- linux   - chrome   - stock
+- linux   - chromium - +patched+
+- windows - chrome   - stock
 
 Patch: [chromium.md](../chromium.md#better-text-rendering)
 
