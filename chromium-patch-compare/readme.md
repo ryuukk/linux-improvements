@@ -6,8 +6,8 @@ Here you can see the comparison between:
 
 Patch: [chromium.md](../chromium.md#better-text-rendering)
 
-YouTube test: https://www.youtube.com/watch?v=iesAEtjA9wo
-Twitter test: https://twitter.com/neilsonks/status/1657502130595328000
+- YouTube test: https://www.youtube.com/watch?v=iesAEtjA9wo
+- Twitter test: https://twitter.com/neilsonks/status/1657502130595328000
 
 (click on them to see them properly)
 
