@@ -20,7 +20,7 @@ Patch chromium with:
 +    defines += [
 +      "SK_GAMMA_APPLY_TO_A8",
 +      "SK_GAMMA_EXPONENT=2.2",
-+      "SK_GAMMA_CONTRAST=0.0",
++      "SK_GAMMA_CONTRAST=0.2",
 +    ]
 +  }
 +   else if (is_android) {
