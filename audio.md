@@ -28,7 +28,7 @@
         "blocklist": [],
         "compressor#0": {
             "attack": 20.0,
-            "boost-amount": 6.0,
+            "boost-amount": 20.0,
             "boost-threshold": -60.0,
             "bypass": false,
             "dry": -100.0,
@@ -39,7 +39,7 @@
             "lpf-frequency": 20000.0,
             "lpf-mode": "off",
             "makeup": -10.0,
-            "mode": "Upward",
+            "mode": "Boosting",
             "output-gain": 0.0,
             "ratio": 4.0,
             "release": 100.0,
