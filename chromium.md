@@ -1,6 +1,6 @@
 # Better text rendering
 
-Chromium passes wrong gamma correction values to skia, and google devs are too retarded to fix it
+Chromium passes wrong gamma correction values to skia, wich resulsts on poor text rendering on dark themes, specially on small texts when using a non retina screen, eg: 1080p screen 
 
 Patch chromium with: 
 
