@@ -7,7 +7,7 @@ Twitter test: https://twitter.com/neilsonks/status/1657502130595328000
 
 (click on them to see them properly)
 
-| Linux (stock)   |      Linux (patched)      |  Windows |
+| Linux (stock) | Linux (patched) | Windows |
 |----------|:-------------:|------:|
 | ![](1-linux_small.png) |  ![](1-linux_small.png) | ![](1-windows_small.png) |
 | ![](2-linux_comment.png) |  ![](2-linux_comment+patched.png) | ![](2-windows_comment.png) |
