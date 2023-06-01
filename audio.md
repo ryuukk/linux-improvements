@@ -85,7 +85,7 @@
             "wet": 0.0
         },
         "limiter#1": {
-            "alr": true,
+            "alr": false,
             "alr-attack": 5.0,
             "alr-knee": -2.0,
             "alr-release": 100.0,
