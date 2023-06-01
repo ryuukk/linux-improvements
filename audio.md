@@ -55,6 +55,35 @@
             "threshold": -10.0,
             "wet": 3.0
         },
+        "compressor#1": {
+            "attack": 20.0,
+            "boost-amount": 6.0,
+            "boost-threshold": -72.0,
+            "bypass": false,
+            "dry": -100.0,
+            "hpf-frequency": 10.0,
+            "hpf-mode": "off",
+            "input-gain": 0.0,
+            "knee": -6.0,
+            "lpf-frequency": 5400.0,
+            "lpf-mode": "off",
+            "makeup": 4.0,
+            "mode": "Upward",
+            "output-gain": 0.0,
+            "ratio": 4.0,
+            "release": 100.0,
+            "release-threshold": -100.0,
+            "sidechain": {
+                "lookahead": 0.0,
+                "mode": "RMS",
+                "preamp": 0.0,
+                "reactivity": 10.0,
+                "source": "Middle",
+                "type": "Feed-forward"
+            },
+            "threshold": -30.0,
+            "wet": 0.0
+        },
         "limiter#1": {
             "alr": true,
             "alr-attack": 5.0,
@@ -87,7 +116,7 @@
         },
         "multiband_compressor#0": {
             "band0": {
-                "attack-threshold": -12.0,
+                "attack-threshold": -10.0,
                 "attack-time": 20.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
@@ -112,11 +141,11 @@
                 "solo": false
             },
             "band1": {
-                "attack-threshold": -12.0,
+                "attack-threshold": -10.0,
                 "attack-time": 20.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
-                "compression-mode": "Boosting",
+                "compression-mode": "Downward",
                 "compressor-enable": true,
                 "enable-band": true,
                 "external-sidechain": false,
@@ -139,7 +168,7 @@
                 "split-frequency": 500.0
             },
             "band2": {
-                "attack-threshold": -12.0,
+                "attack-threshold": -10.0,
                 "attack-time": 20.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
@@ -166,7 +195,7 @@
                 "split-frequency": 1000.0
             },
             "band3": {
-                "attack-threshold": -12.0,
+                "attack-threshold": -10.0,
                 "attack-time": 20.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
@@ -193,7 +222,7 @@
                 "split-frequency": 2000.0
             },
             "band4": {
-                "attack-threshold": -12.0,
+                "attack-threshold": -10.0,
                 "attack-time": 20.0,
                 "boost-amount": 6.0,
                 "boost-threshold": -72.0,
@@ -300,7 +329,7 @@
                 "solo": false,
                 "split-frequency": 16000.0
             },
-            "bypass": false,
+            "bypass": true,
             "compressor-mode": "Modern",
             "dry": -100.0,
             "envelope-boost": "None",
@@ -309,6 +338,7 @@
             "wet": 3.0
         },
         "plugins_order": [
+            "compressor#1",
             "compressor#0",
             "multiband_compressor#0",
             "bass_enhancer#0",
