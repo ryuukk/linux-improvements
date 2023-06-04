@@ -242,7 +242,7 @@
         "limiter#1": {
             "alr": true,
             "alr-attack": 30.0,
-            "alr-knee": -3.9999999999999996,
+            "alr-knee": -2.0,
             "alr-release": 100.0,
             "attack": 5.0,
             "bypass": false,
