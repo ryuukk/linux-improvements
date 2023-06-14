@@ -37,7 +37,7 @@
         },
         "compressor#2": {
             "attack": 30.0,
-            "boost-amount": 6.0,
+            "boost-amount": 20.0,
             "boost-threshold": -72.0,
             "bypass": false,
             "dry": -100.0,
@@ -47,8 +47,8 @@
             "knee": 0.0,
             "lpf-frequency": 20000.0,
             "lpf-mode": "off",
-            "makeup": 4.0,
-            "mode": "Boosting",
+            "makeup": 2.0,
+            "mode": "Upward",
             "output-gain": 0.0,
             "ratio": 2.0,
             "release": 140.0,
@@ -56,7 +56,7 @@
             "sidechain": {
                 "lookahead": 5.0,
                 "mode": "RMS",
-                "preamp": 10.0,
+                "preamp": 0.0,
                 "reactivity": 10.0,
                 "source": "Middle",
                 "type": "Feed-forward"
@@ -69,7 +69,7 @@
             "alr-attack": 30.0,
             "alr-knee": -2.0,
             "alr-release": 100.0,
-            "attack": 5.0,
+            "attack": 10.0,
             "bypass": false,
             "dithering": "None",
             "external-sidechain": false,
@@ -78,8 +78,8 @@
             "lookahead": 5.0,
             "mode": "Herm Thin",
             "output-gain": 0.0,
-            "oversampling": "None",
-            "release": 5.0,
+            "oversampling": "Half x2(2L)",
+            "release": 10.0,
             "sidechain-preamp": 0.0,
             "stereo-link": 100.0,
             "threshold": -8.0
