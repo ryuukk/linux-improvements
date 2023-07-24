@@ -1,5 +1,12 @@
 # Put to sleep noisy disks when innactive
 
+
+Temporary:
+
+``hdparm -S 30 /dev/sda``
+
+Persistent:
+
 ``/etc/udev/rules.d/69-hdparm.rules``
 
 ``` 
