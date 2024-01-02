@@ -6,3 +6,8 @@ export FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening
 
 Add this to your ``~/.profile`` file, then reboot
 
+
+https://freetype.org/freetype2/docs/reference/ft2-properties.html#no-stem-darkening
+
+
+fuck google btw
